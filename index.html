@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>ピーク電圧を探す。</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script>
+        console.log("Chrome用スタイル設定");</script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+<noscript class="error">
+    javascriptが無効になっています。設定から有効にしてください。
+</noscript>
+
+<h1>電圧ピーク値の検出</h1>
+ファイルを下にD&Dすると、電圧のピーク値を検査して回数と秒数、ピーク電圧を出力します。
+出力データはCSV形式で出力できます。
+<div class="dropBox" ondragover="onDragOver(event)" ondrop="onDrop(event)">
+    ここにファイルをドロップ</br>
+</div>
+電圧の閾値 <input type="number" id="threshold" min="0.0" step="0.1" value="3.0">
+<div class="transBox">
+<input class="button" type="button" value="変換する" onclick="Convert()">
+</div>
+<div class="result">
+</div>
+<footer>created by syunki jx20143 kogakuin univ.</footer>
+</body>
+</html>

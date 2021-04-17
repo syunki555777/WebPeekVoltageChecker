@@ -1,0 +1,115 @@
+/* このファイルは計算には関係ありません。 */
+/* Created by Shunki  JX20143 -Kogakuin Univ.-*/
+
+body{
+    padding:0 5% 5% 5%;
+    margin:0;
+    background: #EDF0E0;
+    background-size: 100% 100%;
+}
+
+.dropBox{
+    margin:1% 0;
+    padding:40mm 0;
+    border-radius: 5mm;
+    text-align: center;
+    box-shadow:0 2px 5px 0 inset rgba(0,0,0,.5);
+    font-size: large;
+    transition: 0.5s;
+    background: white;
+}
+ .dropBox:hover{
+     margin:1% 0;
+     padding:40mm 0;
+     border-radius: 5mm;
+     text-align: center;
+     font-size: large;
+     box-shadow:0 5px 5px 0 inset rgba(0,0,0,.5);
+     background:lightgray;
+     cursor:;
+ }
+
+.button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:solid 1px white;
+    padding:3mm;
+    border-radius: 2mm;
+    background:lightskyblue;
+    cursor: pointer;
+    border-bottom:solid 6px lightslategray;
+    transition:0.1s;
+}
+
+.button:hover{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:solid 1px white;
+    padding:3mm;
+    margin:6px 0 0 0;
+    border-radius: 2mm;
+    background:lightskyblue;
+    cursor: pointer;
+    border-bottom:solid 0px lightslategray;
+    transition: .5s;
+}
+.button:active{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border:solid 1px white;
+    padding:3mm;
+    margin:6px 0 0 0;
+    border-radius: 2mm;
+    background:lightskyblue;
+    cursor: pointer;
+    border-bottom:solid 0px lightslategray;
+    box-shadow:0 2px 5px 0 inset rgba(0,0,0,.5);
+    transition: 0s;
+}
+.transBox{
+    margin:1% 0;
+    padding:0;
+    text-align: center;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    background: #EDF0E0;
+}
+
+.error{
+    display:block;
+    background:rgba(255,0,0,.5);
+    position:fixed;
+    width:90%;
+    top:0;
+
+}
+
+.result{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:1% 0;
+    text-align: left;
+    font-size: large;
+    transition: 0.5s;
+}
+.result div{
+    border-radius:5px;
+    padding:5px;
+    margin-right:4mm;
+    margin-bottom:4mm;
+    box-shadow:0 2px 5px 0 inset rgba(0,0,0,.5);
+    background: white;
+}
+
+.result:nth-child(1){
+    background: gray;
+}
+table{
+    text-align: center;
+}
