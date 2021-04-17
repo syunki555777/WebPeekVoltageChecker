@@ -1,4 +1,4 @@
-/*jx20143 鈴木舜基 kogakuin-univ*/
+/*jx20143 syunki kogakuin-univ*/
 /*読み込まれたファイルが入る*/
 let files;
 /*電圧の閾値*/
